@@ -19,9 +19,11 @@
        root.appendChild(heading);
        </script> -->
     <!-- first way of injecting react into our application -->
-    <script  src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-<script src="./App.js">
+    <!-- its not best way to put react into our appication or we can directly use npm from
+         node modules so we can remove from here and use in app.js import react from node modules -->
+    <!-- <script  src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+ <script type="module" src="./App.js">
     
 </script>
 </body>
